@@ -105,7 +105,7 @@ const renderRelatedPosts = () => {
     const relatedContainer = document.getElementById('relatedPosts');
     
     const relatedHTML = relatedPosts.map(post => `
-        <a href="#" class="related-post">
+        <a href="${post.href}" class="related-post">
             <img src="${post.image}" alt="${post.title}" class="related-post-image">
             <div class="related-post-content">
                 <div class="related-post-title">${post.title}</div>

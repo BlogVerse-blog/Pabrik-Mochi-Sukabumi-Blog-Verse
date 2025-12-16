@@ -6,7 +6,7 @@ const articleData = {
     date: "28 Mei 2025",
     author: {
         name: "Sammy",
-        avatar: "./../../Penulis/Sammy.jpg",
+        avatar: "./Penulis/Sammy.jpg",
         bio: "Perjalanan di Pabrik Mochi Arjuna Wijaya Sukabumi."
     },
     heroImage: "./images/Foto (5).jpg",
@@ -80,6 +80,7 @@ const relatedPosts = [
         id: 2,
         title: "Museum Palagan Bojong Kokosan Sukabumi",
         date: "28 Mei 2025", 
-        image: "./images/Foto 1.jpg"
+        image: "./images/Foto 1.jpg",
+        href : "https://museum-palagan-bojong-kokosan-sukab.vercel.app/"
     }
 ];
